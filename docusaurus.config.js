@@ -63,7 +63,7 @@ const config = {
             href: "https://discord.gg/qbcore",
             label: "Discord",
             position: "right"
-          }
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/qbcore-framework/qb-core',
