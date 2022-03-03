@@ -18,8 +18,8 @@ const FeatureList = [
     Svg: require('../../static/img/toolbox.svg').default,
     description: (
       <>
-        QBCore comes pre-loaded with many unique scripts that will give you the tools needed
-        for a running head start towards your final product!
+        QBCore comes packaged with many unique and interactive scripts that will provide easy to use tools, giving you
+        a running head start towards your final product!
       </>
     ),
   },

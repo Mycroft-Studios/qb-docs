@@ -8,24 +8,24 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #DC143C;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #e21b1b;
+  --ifm-color-primary-dark: #ff3636;
+  --ifm-color-primary-darker: #ed0000;
+  --ifm-color-primary-darkest: #cc0000;
+  --ifm-color-primary-light: #ff3030;
+  --ifm-color-primary-lighter: #ff3b3b;
+  --ifm-color-primary-lightest: #ff4d4d;
   --ifm-font-family-base: 'Poppins', sans-serif;
   --ifm-code-font-size: 95%;
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.4);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
 }
