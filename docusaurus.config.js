@@ -16,14 +16,14 @@ const config = {
   organizationName: 'qbcore-framework', // Usually your GitHub org/user name.
   trailingSlash: false,
   projectName: 'qb-docs', // Usually your repo name.
-
   presets: [
     [
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          path: "docs",
+          routeBasePath: "docs",
           // Please change this to your repo.
           editUrl: 'https://github.com/qbcore-framework/qb-docs/edit/main/docs/',
         },
@@ -43,6 +43,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark"
+      },
       navbar: {
         title: 'QBCore Framework',
         logo: {
@@ -54,8 +57,13 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
+          {
+            href: "https://discord.gg/qbcore",
+            label: "Discord",
+            position: "right"
+          }
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/qbcore-framework/qb-core',
